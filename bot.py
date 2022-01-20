@@ -26,7 +26,9 @@ async def start(event):
     buttons=(
       [
         Button.url('📣 Channel', 'https://t.me/A_BUT'),
-        Button.url('📦 Source', 'https://t.me/SUBHI_WORLD')
+          Button.url('👑 OWNER', 'https://t.me/ZINDA_H_TU_MERE_LIYE_HEART_HACK'),
+          Button.url('👑 C-OWNER', 'https://t.me/Itz_me_baby'),
+        Button.url('⚜️ GROUP', 'https://t.me/SUBHI_WORLD')
       ]
     )
   )
