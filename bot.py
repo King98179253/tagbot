@@ -21,26 +21,27 @@ spam_chats = []
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
   await event.reply(
-    "__**I'm 《𝐀𝐥𝐭𝐫𝐨𝐧𝐢𝐱 𝐌𝐞𝐧𝐭𝐢𝐨𝐧 𝐑𝐨𝐛𝐨𝐭》**, I can mention almost all members in group or channel 👻\nClick **/help** for more information__\n\n Support [AltronixSupport](t.me/AltronixSupport) on Telegram",
+    "__**I'm 《𝐁𝐇𝐀𝐓𝐀𝐊𝐓𝐈 𝐀𝐓𝐌𝐀 𝐌𝐞𝐧𝐭𝐢𝐨𝐧 𝐑𝐨𝐛𝐨𝐭》**, 𝐇𝐘𝐘, 𝐈 𝐀𝐌 𝐌𝐄𝐍𝐓𝐈𝐎𝐍 𝐀𝐋𝐌𝐎𝐒𝐓 𝐓𝐀𝐆 𝐀𝐋𝐋 𝐌𝐄𝐌𝐁𝐄𝐑 𝐆𝐑𝐎𝐔𝐏 𝐀𝐍𝐒 𝐂𝐇𝐀𝐍𝐍𝐄𝐋👻\n𝐂𝐋𝐈𝐂𝐊**/help** 𝐅𝐎𝐑 𝐌𝐎𝐑𝐄 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍__\n\n 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 [🔥𝐁𝐇𝐀𝐓𝐀𝐊𝐓𝐈𝐀𝐓𝐌𝐀🚩](https://t.me/SUBHI_WORLD) 𝐈𝐍 𝐓𝐄𝐋𝐄𝐆𝐑𝐀𝐌",
     link_preview=False,
     buttons=(
       [
-        Button.url('📣 Channel', 'https://t.me/AltronixBots'),
-        Button.url('📦 Source', 'https://github.com/D3stroyer-xD/TagAllRobot')
+        Button.url('📣 Channel', 'https://t.me/A_BUT'),
+        Button.url('📦 Source', 'https://t.me/SUBHI_WORLD')
       ]
     )
   )
 
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**Help Menu of MentionAllBot**\n\nCommand: /mentionall\n__You can use this command with text what you want to mention others.__\n`Example: /mentionall Good Morning!`\n__You can you this command as a reply to any message. Bot will tag users to that replied messsage__.\n\Support [AltronixSupport](t.me/AltronixSupport) on Telegram"
+  helptext = "**Help Menu of MentionAllBot**\n\nCommand: /mentionall\n__You can use this command with text what you want to mention others.__\n`Example: /mentionall Good Morning!`\n__You can you this command as a reply to any message. Bot will tag users to that replied messsage__.\n\Support [𝐁𝐇𝐀𝐓𝐀𝐊𝐓𝐈 𝐀𝐓𝐌𝐀](https://t.me/A_BUT) on Telegram"
   await event.reply(
     helptext,
     link_preview=False,
     buttons=(
       [
-        Button.url('📣 Channel', 'https://t.me/AltronixBots'),
-        Button.url('📦 Source', 'https://github.com/D3stroyer-xD/TagAllRobot')
+        Button.url('📣 Channel', 'https://t.me/A_BUT'), 
+        Button.url('👑 OWNER', 'https://t.me/ZINDA_H_TU_MERE_LIYE_HEART_HACK'),
+        Button.url('📦 Source', 'https://t.me/SUBHI_WORLD')
       ]
     )
   )
@@ -119,5 +120,5 @@ async def cancel_spam(event):
       pass
     return await event.respond('__Stopped.__')
 
-print(">> BOT STARTED <<")
+print(">> BHATAKTI ATMA MENTION BOT STARTED <<")
 client.run_until_disconnected()
